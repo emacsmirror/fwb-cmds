@@ -100,7 +100,7 @@ Replace the first window that never displayed another buffer than
 the one it is currently displaying.  If all windows displayed
 another buffer before, then replace the selected window."
   (interactive)
-  (if-let ((window (cl-find-if-not #'window-prev-buffers (window-list))))
+  (if-let* ((window (cl-find-if-not #'window-prev-buffers (window-list))))
       (with-selected-window window
         (fwb-replace-current-window-with-frame))
     (fwb-replace-current-window-with-frame)))
