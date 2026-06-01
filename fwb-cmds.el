@@ -6,10 +6,10 @@
 ;; Homepage: https://github.com/tarsius/fwb-cmds
 ;; Keywords: convenience
 
-;; Package-Version: 2.0.5
+;; Package-Version: 2.0.6
 ;; Package-Requires: (
 ;;     (emacs  "28.1")
-;;     (compat "30.1"))
+;;     (compat "31.0"))
 
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
